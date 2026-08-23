@@ -213,7 +213,7 @@
       <p><b>OBJECTIVE:</b> Infrastructure penetration testing, exploitation, and post-exploitation within a controlled virtualized lab environment.</p>
       <p><b>TECH STACK:</b> Kali Linux, Metasploitable 2, QEMU/KVM, Libvirt.</p>
       <p><b>DESCRIPTION:</b> Conducted reconnaissance, vulnerability assessment, exploitation, privilege escalation, and post-exploitation against intentionally vulnerable systems in an isolated lab. Leveraged Kali Linux and virtualized infrastructure to simulate infrastructure penetration testing workflows.</p>
-      <p><a href="https://github.com/Coding666Legend"><code>[ VIEW MISSION REPOSITORY ]</code></a></p>
+      <p><a href="https://github.com/Coding666Legend/appsec-and-network-pentesting-lab"><code>[ VIEW MISSION REPOSITORY ]</code></a></p>
     </td>
   </tr>
 </table>
