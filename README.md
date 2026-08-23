@@ -21,7 +21,7 @@
   <a href="#02--attack-methodology"><code>[ 02-METHODOLOGY ]</code></a> &bull;
   <a href="#03--tactical-arsenal"><code>[ 03-ARSENAL ]</code></a> &bull;
   <a href="#04--active-operations"><code>[ 04-OPERATIONS ]</code></a> &bull;
-  <a href="#05--field-intelligence--logs"><code>[ 05-INTELLIGENCE ]</code></a> &bull;
+  <a href="#05--field-intelligence--logs"><code>[ 05-INTELLIGENCE ]</code></a><br/>
   <a href="#06--certification-trajectory"><code>[ 06-CERTS ]</code></a> &bull;
   <a href="#07--system-telemetry--metrics"><code>[ 07-TELEMETRY ]</code></a> &bull;
   <a href="#08--secure-comms--transmissions"><code>[ 08-COMMS ]</code></a>
@@ -209,26 +209,10 @@
       <p><a href="https://github.com/Coding666Legend"><code>[ VIEW MISSION REPOSITORY ]</code></a></p>
     </td>
     <td width="50%" valign="top">
-      <h4><code>OPERATION 002 // OFFSEC-AUTOMATION-KIT</code></h4>
-      <p><b>OBJECTIVE:</b> Custom Python/Bash automated recon &amp; triage tooling.</p>
-      <p><b>TECH STACK:</b> Python, Bash, Nmap API, Docker.</p>
-      <p><b>DESCRIPTION:</b> Modular offensive security scripts for rapid network range triage, port enumeration parsing, and automated vulnerability log aggregation.</p>
-      <p><a href="https://github.com/Coding666Legend"><code>[ VIEW MISSION REPOSITORY ]</code></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><code>OPERATION 003 // SYSTEM-INTERNALS-LAB</code></h4>
-      <p><b>OBJECTIVE:</b> Low-level Linux kernel &amp; C exploitation environment.</p>
-      <p><b>TECH STACK:</b> C, C++, Assembly (x86/x64), GDB, Linux Admin.</p>
-      <p><b>DESCRIPTION:</b> Isolated laboratory for researching memory safety, process injection techniques, buffer overflows, and Linux system call interjection.</p>
-      <p><a href="https://github.com/Coding666Legend"><code>[ VIEW MISSION REPOSITORY ]</code></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><code>OPERATION 004 // CONTAINER-SEC-SANDBOX</code></h4>
-      <p><b>OBJECTIVE:</b> Docker container isolation &amp; security testing setup.</p>
-      <p><b>TECH STACK:</b> Docker, Linux Namespaces, Cgroups, Bash.</p>
-      <p><b>DESCRIPTION:</b> Research environment evaluating container breakout vectors, misconfigured capability grants, and hardened Docker daemon security policies.</p>
+      <h4><code>OPERATION 002 // INFRA-PENTEST-RANGE</code></h4>
+      <p><b>OBJECTIVE:</b> Infrastructure penetration testing, exploitation, and post-exploitation within a controlled virtualized lab environment.</p>
+      <p><b>TECH STACK:</b> Kali Linux, Metasploitable 2, QEMU/KVM, Libvirt.</p>
+      <p><b>DESCRIPTION:</b> Conducted reconnaissance, vulnerability assessment, exploitation, privilege escalation, and post-exploitation against intentionally vulnerable systems in an isolated lab. Leveraged Kali Linux and virtualized infrastructure to simulate infrastructure penetration testing workflows.</p>
       <p><a href="https://github.com/Coding666Legend"><code>[ VIEW MISSION REPOSITORY ]</code></a></p>
     </td>
   </tr>
@@ -299,8 +283,6 @@
   [◉]        AD-SEC-05        Active Directory Attack & Defense Vectors  In Progress
   [◉]        WEB-SEC-06       Web Application Pentesting & Fuzzing       In Progress
   [ ]        PNPT-CERT        Practical Network Penetration Tester       Target Goal
-  [ ]        OSCP-CERT        Offensive Security Certified Professional  Target Goal
-  [ ]        CRTO-CERT        Certified Red Team Operator                Target Goal
 ========================================================================================
 ```
 
