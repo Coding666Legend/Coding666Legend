@@ -1,24 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="100%" height="100%">
-  <defs>
-    <linearGradient id="hdr-bg-purp" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.2" />
-      <stop offset="30%" stop-color="#0A0E1A" />
-      <stop offset="100%" stop-color="#05060A" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 50"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg2113"
+   sodipodi:docname="intelligence.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2115"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.9066667"
+     inkscape:cx="450"
+     inkscape:cy="24.912587"
+     inkscape:window-width="1858"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2113" />
+  <defs
+     id="defs2095">
+    <linearGradient
+       id="hdr-bg-purp"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#A855F7"
+         stop-opacity="0.2"
+         id="stop2079" />
+      <stop
+         offset="30%"
+         stop-color="#0A0E1A"
+         id="stop2081" />
+      <stop
+         offset="100%"
+         stop-color="#05060A"
+         id="stop2083" />
     </linearGradient>
-    <filter id="glow-purp" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+    <filter
+       id="glow-purp"
+       x="-0.8"
+       y="-0.18461538"
+       width="2.6"
+       height="1.3692308">
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur2086" />
+      <feMerge
+         id="feMerge2092">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode2088" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2090" />
       </feMerge>
     </filter>
   </defs>
-  <rect width="900" height="50" fill="url(#hdr-bg-purp)" rx="4" />
-  <rect width="900" height="50" fill="none" stroke="#A855F7" stroke-width="1" stroke-opacity="0.3" rx="4" />
-  <path d="M 0 0 L 12 0 L 0 12 Z" fill="#A855F7" />
-  <rect x="18" y="12" width="6" height="26" fill="#A855F7" filter="url(#glow-purp)" />
-  <text x="36" y="32" fill="#FFFFFF" font-family="'Consolas', 'Courier New', monospace" font-size="18" font-weight="900" letter-spacing="2">05 // FIELD INTELLIGENCE &amp; LOGS</text>
-  <path d="M 440 32 L 860 32" stroke="#A855F7" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="8 4" />
-  <polygon points="860,28 868,32 860,36" fill="#A855F7" opacity="0.8" />
-  <text x="885" y="31" fill="#A855F7" font-family="monospace" font-size="10" text-anchor="end" font-weight="bold">[RESEARCH-LOGS]</text>
+  <rect
+     width="900"
+     height="50"
+     fill="url(#hdr-bg-purp)"
+     rx="4"
+     id="rect2097" />
+  <rect
+     width="900"
+     height="50"
+     fill="none"
+     stroke="#A855F7"
+     stroke-width="1"
+     stroke-opacity="0.3"
+     rx="4"
+     id="rect2099" />
+  <path
+     d="M 0 0 L 12 0 L 0 12 Z"
+     fill="#A855F7"
+     id="path2101" />
+  <rect
+     x="18"
+     y="12"
+     width="6"
+     height="26"
+     fill="#A855F7"
+     filter="url(#glow-purp)"
+     id="rect2103" />
+  <text
+     x="36"
+     y="32"
+     fill="#FFFFFF"
+     font-family="'Consolas', 'Courier New', monospace"
+     font-size="18"
+     font-weight="900"
+     letter-spacing="2"
+     id="text2105">05 // FIELD INTELLIGENCE &amp; LOGS</text>
+  <path
+     d="M 433.85175,26.341401 H 796.56509"
+     stroke="#a855f7"
+     stroke-width="0.929303"
+     stroke-opacity="0.4"
+     stroke-dasharray="8, 4"
+     id="path2107" />
+  <polygon
+     points="868,32 860,36 860,28 "
+     fill="#a855f7"
+     opacity="0.8"
+     id="polygon2109"
+     transform="translate(-64,-6)" />
+  <text
+     x="895.4444"
+     y="29.277018"
+     fill="#a855f7"
+     font-family="monospace"
+     font-size="10px"
+     text-anchor="end"
+     font-weight="bold"
+     id="text2111">[RESEARCH-LOGS]</text>
 </svg>

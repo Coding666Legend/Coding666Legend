@@ -1,164 +1,769 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
-  <defs>
-    <linearGradient id="ap-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070C" />
-      <stop offset="100%" stop-color="#090D18" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 380"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg1235"
+   sodipodi:docname="attack-path.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1237"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.9066667"
+     inkscape:cx="450"
+     inkscape:cy="190.12238"
+     inkscape:window-width="1858"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1235" />
+  <defs
+     id="defs1075">
+    <linearGradient
+       id="ap-bg"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#05070C"
+         id="stop1031" />
+      <stop
+         offset="100%"
+         stop-color="#090D18"
+         id="stop1033" />
     </linearGradient>
-
-    <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+    <filter
+       id="glow-red"
+       x="-inf"
+       y="-inf"
+       width="inf"
+       height="inf">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1036" />
+      <feMerge
+         id="feMerge1042">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode1038" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode1040" />
       </feMerge>
     </filter>
-
-    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+    <filter
+       id="glow-cyan"
+       x="-0.16"
+       y="-inf"
+       width="1.3733333"
+       height="inf">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1045" />
+      <feMerge
+         id="feMerge1051">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode1047" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode1049" />
       </feMerge>
     </filter>
-
-    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+    <filter
+       id="glow-green"
+       x="-0.16"
+       y="-inf"
+       width="1.2666667"
+       height="inf">
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur1054" />
+      <feMerge
+         id="feMerge1060">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode1056" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode1058" />
       </feMerge>
     </filter>
-
-    <pattern id="ap-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.05" />
+    <pattern
+       id="ap-grid"
+       width="20"
+       height="20"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M 20 0 L 0 0 0 20"
+         fill="none"
+         stroke="#00F0FF"
+         stroke-width="0.5"
+         stroke-opacity="0.05"
+         id="path1063" />
     </pattern>
-
     <!-- Arrow Markers -->
-    <marker id="arrow-cyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#00F0FF" />
+    <marker
+       id="arrow-cyan"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 1 L 8 5 L 0 9 z"
+         fill="#00F0FF"
+         id="path1066" />
     </marker>
-    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#FF003C" />
+    <marker
+       id="arrow-red"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 1 L 8 5 L 0 9 z"
+         fill="#FF003C"
+         id="path1069" />
     </marker>
-    <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#39FF14" />
+    <marker
+       id="arrow-green"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 1 L 8 5 L 0 9 z"
+         fill="#39FF14"
+         id="path1072" />
     </marker>
   </defs>
-
   <!-- Background -->
-  <rect width="900" height="380" fill="url(#ap-bg)" rx="6" />
-  <rect width="900" height="380" fill="url(#ap-grid)" rx="6" />
-  <rect x="8" y="8" width="884" height="364" fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.2" rx="4" />
-
+  <rect
+     width="900"
+     height="380"
+     fill="url(#ap-bg)"
+     rx="6"
+     id="rect1077" />
+  <rect
+     width="900"
+     height="380"
+     fill="url(#ap-grid)"
+     rx="6"
+     id="rect1079" />
+  <rect
+     x="8"
+     y="8"
+     width="884"
+     height="364"
+     fill="none"
+     stroke="#00F0FF"
+     stroke-width="1"
+     stroke-opacity="0.2"
+     rx="4"
+     id="rect1081" />
   <!-- Header Bar -->
-  <path d="M 20 28 L 380 28 L 395 40 L 880 40" fill="none" stroke="#FF003C" stroke-width="1.5" stroke-opacity="0.6" />
-  <text x="25" y="22" fill="#FF003C" font-family="'Consolas', monospace" font-size="12" font-weight="bold" letter-spacing="1.5" filter="url(#glow-red)">[ PHASE // OPERATIONAL RED TEAM ATTACK-PATH FLOW ]</text>
-  <text x="875" y="22" fill="#00F0FF" font-family="'Consolas', monospace" font-size="10" text-anchor="end" opacity="0.8">FRAMEWORK: MITRE ATT&amp;CK / LOCKHEED CYBER KILL CHAIN</text>
-
+  <path
+     d="M 20 28 L 380 28 L 395 40 L 880 40"
+     fill="none"
+     stroke="#FF003C"
+     stroke-width="1.5"
+     stroke-opacity="0.6"
+     id="path1083" />
+  <text
+     x="25"
+     y="22"
+     fill="#FF003C"
+     font-family="'Consolas', monospace"
+     font-size="12"
+     font-weight="bold"
+     letter-spacing="1.5"
+     filter="url(#glow-red)"
+     id="text1085">[ PHASE // OPERATIONAL RED TEAM ATTACK-PATH FLOW ]</text>
+  <text
+     x="875"
+     y="22"
+     fill="#00F0FF"
+     font-family="'Consolas', monospace"
+     font-size="10"
+     text-anchor="end"
+     opacity="0.8"
+     id="text1087">FRAMEWORK: MITRE ATT&amp;CK / LOCKHEED CYBER KILL CHAIN</text>
   <!-- TOP ROW NODES -->
-  
   <!-- NODE 1: RECON -->
-  <g transform="translate(35, 65)">
-    <rect width="240" height="110" fill="#0A0E1A" stroke="#00F0FF" stroke-width="1.5" rx="4" />
-    <path d="M 0 0 L 25 0 L 0 25 Z" fill="#00F0FF" />
-    <text x="5" y="14" fill="#05070C" font-family="monospace" font-size="9" font-weight="bold">01</text>
-    <text x="35" y="22" fill="#00F0FF" font-family="'Consolas', monospace" font-size="12" font-weight="bold" filter="url(#glow-cyan)">RECON &amp; OSINT</text>
-    <line x1="15" y1="32" x2="225" y2="32" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" />
-    <text x="15" y="50" fill="#A0AAB8" font-family="monospace" font-size="10">• Passive Intel &amp; Domain Recon</text>
-    <text x="15" y="68" fill="#A0AAB8" font-family="monospace" font-size="10">• Subdomain Footprinting</text>
-    <text x="15" y="86" fill="#A0AAB8" font-family="monospace" font-size="10">• Open Source Intelligence</text>
-    <rect x="15" y="94" width="210" height="10" fill="#00F0FF" fill-opacity="0.1" rx="2" />
-    <text x="120" y="102" fill="#00F0FF" font-family="monospace" font-size="8" text-anchor="middle">TOOLS: Amass, theHarvester, OSINT</text>
+  <g
+     transform="translate(35, 65)"
+     id="g1109">
+    <rect
+       width="240"
+       height="110"
+       fill="#0A0E1A"
+       stroke="#00F0FF"
+       stroke-width="1.5"
+       rx="4"
+       id="rect1089" />
+    <path
+       d="M 0 0 L 25 0 L 0 25 Z"
+       fill="#00F0FF"
+       id="path1091" />
+    <text
+       x="2.633714"
+       y="11.895951"
+       fill="#05070c"
+       font-family="monospace"
+       font-size="9px"
+       font-weight="bold"
+       id="text1093"
+       inkscape:transform-center-x="-3.9622487"
+       inkscape:transform-center-y="5.6012347">01</text>
+    <text
+       x="35"
+       y="22"
+       fill="#00F0FF"
+       font-family="'Consolas', monospace"
+       font-size="12"
+       font-weight="bold"
+       filter="url(#glow-cyan)"
+       id="text1095">RECON &amp; OSINT</text>
+    <line
+       x1="15"
+       y1="32"
+       x2="225"
+       y2="32"
+       stroke="#00F0FF"
+       stroke-opacity="0.3"
+       stroke-width="1"
+       id="line1097" />
+    <text
+       x="15"
+       y="50"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1099">• Passive Intel &amp; Domain Recon</text>
+    <text
+       x="15"
+       y="68"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1101">• Subdomain Footprinting</text>
+    <text
+       x="15"
+       y="86"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1103">• Open Source Intelligence</text>
+    <rect
+       x="15"
+       y="94"
+       width="210"
+       height="10"
+       fill="#00F0FF"
+       fill-opacity="0.1"
+       rx="2"
+       id="rect1105" />
+    <text
+       x="120"
+       y="102"
+       fill="#00F0FF"
+       font-family="monospace"
+       font-size="8"
+       text-anchor="middle"
+       id="text1107">TOOLS: Amass, theHarvester, OSINT</text>
   </g>
-
   <!-- Connection 1 -> 2 -->
-  <path d="M 275 120 L 320 120" fill="none" stroke="#00F0FF" stroke-width="2" marker-end="url(#arrow-cyan)" filter="url(#glow-cyan)" />
-
+  <path
+     d="M 275 120 L 320 120"
+     fill="none"
+     stroke="#00F0FF"
+     stroke-width="2"
+     marker-end="url(#arrow-cyan)"
+     filter="url(#glow-cyan)"
+     id="path1111" />
   <!-- NODE 2: ENUMERATION -->
-  <g transform="translate(330, 65)">
-    <rect width="240" height="110" fill="#0A0E1A" stroke="#00F0FF" stroke-width="1.5" rx="4" />
-    <path d="M 0 0 L 25 0 L 0 25 Z" fill="#00F0FF" />
-    <text x="5" y="14" fill="#05070C" font-family="monospace" font-size="9" font-weight="bold">02</text>
-    <text x="35" y="22" fill="#00F0FF" font-family="'Consolas', monospace" font-size="12" font-weight="bold" filter="url(#glow-cyan)">ENUMERATION</text>
-    <line x1="15" y1="32" x2="225" y2="32" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" />
-    <text x="15" y="50" fill="#A0AAB8" font-family="monospace" font-size="10">• Port &amp; Service Fingerprinting</text>
-    <text x="15" y="68" fill="#A0AAB8" font-family="monospace" font-size="10">• Web Content Directory Fuzzing</text>
-    <text x="15" y="86" fill="#A0AAB8" font-family="monospace" font-size="10">• Network Range Discovery</text>
-    <rect x="15" y="94" width="210" height="10" fill="#00F0FF" fill-opacity="0.1" rx="2" />
-    <text x="120" y="102" fill="#00F0FF" font-family="monospace" font-size="8" text-anchor="middle">TOOLS: Nmap, ffuf, Wireshark</text>
+  <g
+     transform="translate(330, 65)"
+     id="g1133">
+    <rect
+       width="240"
+       height="110"
+       fill="#0A0E1A"
+       stroke="#00F0FF"
+       stroke-width="1.5"
+       rx="4"
+       id="rect1113" />
+    <path
+       d="M 0 0 L 25 0 L 0 25 Z"
+       fill="#00F0FF"
+       id="path1115" />
+    <text
+       x="1.9842657"
+       y="12.442964"
+       fill="#05070c"
+       font-family="monospace"
+       font-size="9px"
+       font-weight="bold"
+       id="text1117">02</text>
+    <text
+       x="35"
+       y="22"
+       fill="#00F0FF"
+       font-family="'Consolas', monospace"
+       font-size="12"
+       font-weight="bold"
+       filter="url(#glow-cyan)"
+       id="text1119">ENUMERATION</text>
+    <line
+       x1="15"
+       y1="32"
+       x2="225"
+       y2="32"
+       stroke="#00F0FF"
+       stroke-opacity="0.3"
+       stroke-width="1"
+       id="line1121" />
+    <text
+       x="15"
+       y="50"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1123">• Port &amp; Service Fingerprinting</text>
+    <text
+       x="15"
+       y="68"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1125">• Web Content Directory Fuzzing</text>
+    <text
+       x="15"
+       y="86"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1127">• Network Range Discovery</text>
+    <rect
+       x="15"
+       y="94"
+       width="210"
+       height="10"
+       fill="#00F0FF"
+       fill-opacity="0.1"
+       rx="2"
+       id="rect1129" />
+    <text
+       x="120"
+       y="102"
+       fill="#00F0FF"
+       font-family="monospace"
+       font-size="8"
+       text-anchor="middle"
+       id="text1131">TOOLS: Nmap, ffuf, Wireshark</text>
   </g>
-
   <!-- Connection 2 -> 3 -->
-  <path d="M 570 120 L 615 120" fill="none" stroke="#FF003C" stroke-width="2" marker-end="url(#arrow-red)" filter="url(#glow-red)" />
-
+  <path
+     d="M 570 120 L 615 120"
+     fill="none"
+     stroke="#FF003C"
+     stroke-width="2"
+     marker-end="url(#arrow-red)"
+     filter="url(#glow-red)"
+     id="path1135" />
   <!-- NODE 3: INITIAL ACCESS -->
-  <g transform="translate(625, 65)">
-    <rect width="240" height="110" fill="#140A10" stroke="#FF003C" stroke-width="1.5" rx="4" />
-    <path d="M 0 0 L 25 0 L 0 25 Z" fill="#FF003C" />
-    <text x="5" y="14" fill="#05070C" font-family="monospace" font-size="9" font-weight="bold">03</text>
-    <text x="35" y="22" fill="#FF003C" font-family="'Consolas', monospace" font-size="12" font-weight="bold" filter="url(#glow-red)">INITIAL ACCESS</text>
-    <line x1="15" y1="32" x2="225" y2="32" stroke="#FF003C" stroke-opacity="0.3" stroke-width="1" />
-    <text x="15" y="50" fill="#A0AAB8" font-family="monospace" font-size="10">• Web Vulnerability Exploitation</text>
-    <text x="15" y="68" fill="#A0AAB8" font-family="monospace" font-size="10">• Credential Abuse / Spraying</text>
-    <text x="15" y="86" fill="#A0AAB8" font-family="monospace" font-size="10">• Establishing Initial Shell</text>
-    <rect x="15" y="94" width="210" height="10" fill="#FF003C" fill-opacity="0.15" rx="2" />
-    <text x="120" y="102" fill="#FF003C" font-family="monospace" font-size="8" text-anchor="middle">TOOLS: Burp Suite, Caido, Netcat</text>
+  <g
+     transform="translate(625, 65)"
+     id="g1157">
+    <rect
+       width="240"
+       height="110"
+       fill="#140A10"
+       stroke="#FF003C"
+       stroke-width="1.5"
+       rx="4"
+       id="rect1137" />
+    <path
+       d="M 0 0 L 25 0 L 0 25 Z"
+       fill="#FF003C"
+       id="path1139" />
+    <text
+       x="3"
+       y="12"
+       fill="#05070c"
+       font-family="monospace"
+       font-size="9px"
+       font-weight="bold"
+       id="text1141">03</text>
+    <text
+       x="35"
+       y="22"
+       fill="#FF003C"
+       font-family="'Consolas', monospace"
+       font-size="12"
+       font-weight="bold"
+       filter="url(#glow-red)"
+       id="text1143">INITIAL ACCESS</text>
+    <line
+       x1="15"
+       y1="32"
+       x2="225"
+       y2="32"
+       stroke="#FF003C"
+       stroke-opacity="0.3"
+       stroke-width="1"
+       id="line1145" />
+    <text
+       x="15"
+       y="50"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1147">• Web Vulnerability Exploitation</text>
+    <text
+       x="15"
+       y="68"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1149">• Credential Abuse / Spraying</text>
+    <text
+       x="15"
+       y="86"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1151">• Establishing Initial Shell</text>
+    <rect
+       x="15"
+       y="94"
+       width="210"
+       height="10"
+       fill="#FF003C"
+       fill-opacity="0.15"
+       rx="2"
+       id="rect1153" />
+    <text
+       x="120"
+       y="102"
+       fill="#FF003C"
+       font-family="monospace"
+       font-size="8"
+       text-anchor="middle"
+       id="text1155">TOOLS: Burp Suite, Caido, Netcat</text>
   </g>
-
   <!-- Connection 3 -> 4 (Downwards curve) -->
-  <path d="M 745 175 L 745 220 L 745 220" fill="none" stroke="#FF003C" stroke-width="2" marker-end="url(#arrow-red)" filter="url(#glow-red)" />
-
+  <path
+     d="M 745 175 L 745 220 L 745 220"
+     fill="none"
+     stroke="#FF003C"
+     stroke-width="2"
+     marker-end="url(#arrow-red)"
+     filter="url(#glow-red)"
+     id="path1159" />
   <!-- BOTTOM ROW NODES -->
-
   <!-- NODE 4: PRIVILEGE ESCALATION -->
-  <g transform="translate(625, 230)">
-    <rect width="240" height="110" fill="#140A10" stroke="#FF003C" stroke-width="1.5" rx="4" />
-    <path d="M 0 0 L 25 0 L 0 25 Z" fill="#FF003C" />
-    <text x="5" y="14" fill="#05070C" font-family="monospace" font-size="9" font-weight="bold">04</text>
-    <text x="35" y="22" fill="#FF003C" font-family="'Consolas', monospace" font-size="12" font-weight="bold" filter="url(#glow-red)">PRIVILEGE ESCALATION</text>
-    <line x1="15" y1="32" x2="225" y2="32" stroke="#FF003C" stroke-opacity="0.3" stroke-width="1" />
-    <text x="15" y="50" fill="#A0AAB8" font-family="monospace" font-size="10">• Local Misconfig Audit</text>
-    <text x="15" y="68" fill="#A0AAB8" font-family="monospace" font-size="10">• Kernel / SUID Exploitation</text>
-    <text x="15" y="86" fill="#A0AAB8" font-family="monospace" font-size="10">• System Administrator Elevate</text>
-    <rect x="15" y="94" width="210" height="10" fill="#FF003C" fill-opacity="0.15" rx="2" />
-    <text x="120" y="102" fill="#FF003C" font-family="monospace" font-size="8" text-anchor="middle">TOOLS: LinPEAS, WinPEAS, PowerUp</text>
+  <g
+     transform="translate(625, 230)"
+     id="g1181">
+    <rect
+       width="240"
+       height="110"
+       fill="#140A10"
+       stroke="#FF003C"
+       stroke-width="1.5"
+       rx="4"
+       id="rect1161" />
+    <path
+       d="M 0 0 L 25 0 L 0 25 Z"
+       fill="#FF003C"
+       id="path1163" />
+    <text
+       x="3.2524312"
+       y="11.588642"
+       fill="#05070c"
+       font-family="monospace"
+       font-size="9px"
+       font-weight="bold"
+       id="text1165">04</text>
+    <text
+       x="35"
+       y="22"
+       fill="#FF003C"
+       font-family="'Consolas', monospace"
+       font-size="12"
+       font-weight="bold"
+       filter="url(#glow-red)"
+       id="text1167">PRIVILEGE ESCALATION</text>
+    <line
+       x1="15"
+       y1="32"
+       x2="225"
+       y2="32"
+       stroke="#FF003C"
+       stroke-opacity="0.3"
+       stroke-width="1"
+       id="line1169" />
+    <text
+       x="15"
+       y="50"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1171">• Local Misconfig Audit</text>
+    <text
+       x="15"
+       y="68"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1173">• Kernel / SUID Exploitation</text>
+    <text
+       x="15"
+       y="86"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1175">• System Administrator Elevate</text>
+    <rect
+       x="15"
+       y="94"
+       width="210"
+       height="10"
+       fill="#FF003C"
+       fill-opacity="0.15"
+       rx="2"
+       id="rect1177" />
+    <text
+       x="120"
+       y="102"
+       fill="#FF003C"
+       font-family="monospace"
+       font-size="8"
+       text-anchor="middle"
+       id="text1179">TOOLS: LinPEAS, WinPEAS, PowerUp</text>
   </g>
-
   <!-- Connection 4 -> 5 (Leftwards) -->
-  <path d="M 625 285 L 580 285" fill="none" stroke="#A855F7" stroke-width="2" marker-end="url(#arrow-cyan)" opacity="0.9" />
-
+  <path
+     d="M 625 285 L 580 285"
+     fill="none"
+     stroke="#A855F7"
+     stroke-width="2"
+     marker-end="url(#arrow-cyan)"
+     opacity="0.9"
+     id="path1183" />
   <!-- NODE 5: AD & LATERAL MOVEMENT -->
-  <g transform="translate(330, 230)">
-    <rect width="240" height="110" fill="#0F0A1A" stroke="#A855F7" stroke-width="1.5" rx="4" />
-    <path d="M 0 0 L 25 0 L 0 25 Z" fill="#A855F7" />
-    <text x="5" y="14" fill="#05070C" font-family="monospace" font-size="9" font-weight="bold">05</text>
-    <text x="35" y="22" fill="#A855F7" font-family="'Consolas', monospace" font-size="12" font-weight="bold">AD &amp; LATERAL MOVE</text>
-    <line x1="15" y1="32" x2="225" y2="32" stroke="#A855F7" stroke-opacity="0.3" stroke-width="1" />
-    <text x="15" y="50" fill="#A0AAB8" font-family="monospace" font-size="10">• BloodHound Graph Mapping</text>
-    <text x="15" y="68" fill="#A0AAB8" font-family="monospace" font-size="10">• Kerberoasting &amp; Ticket Abuse</text>
-    <text x="15" y="86" fill="#A0AAB8" font-family="monospace" font-size="10">• Domain Admin Compromise</text>
-    <rect x="15" y="94" width="210" height="10" fill="#A855F7" fill-opacity="0.15" rx="2" />
-    <text x="120" y="102" fill="#A855F7" font-family="monospace" font-size="8" text-anchor="middle">TOOLS: BloodHound, Impacket, NetExec</text>
+  <g
+     transform="translate(330, 230)"
+     id="g1205">
+    <rect
+       width="240"
+       height="110"
+       fill="#0F0A1A"
+       stroke="#A855F7"
+       stroke-width="1.5"
+       rx="4"
+       id="rect1185" />
+    <path
+       d="M 0 0 L 25 0 L 0 25 Z"
+       fill="#A855F7"
+       id="path1187" />
+    <text
+       x="1"
+       y="14"
+       fill="#05070c"
+       font-family="monospace"
+       font-size="9px"
+       font-weight="bold"
+       id="text1189">05</text>
+    <text
+       x="35"
+       y="22"
+       fill="#A855F7"
+       font-family="'Consolas', monospace"
+       font-size="12"
+       font-weight="bold"
+       id="text1191">AD &amp; LATERAL MOVE</text>
+    <line
+       x1="15"
+       y1="32"
+       x2="225"
+       y2="32"
+       stroke="#A855F7"
+       stroke-opacity="0.3"
+       stroke-width="1"
+       id="line1193" />
+    <text
+       x="15"
+       y="50"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1195">• BloodHound Graph Mapping</text>
+    <text
+       x="15"
+       y="68"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1197">• Kerberoasting &amp; Ticket Abuse</text>
+    <text
+       x="15"
+       y="86"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1199">• Domain Admin Compromise</text>
+    <rect
+       x="15"
+       y="94"
+       width="210"
+       height="10"
+       fill="#A855F7"
+       fill-opacity="0.15"
+       rx="2"
+       id="rect1201" />
+    <text
+       x="120"
+       y="102"
+       fill="#A855F7"
+       font-family="monospace"
+       font-size="8"
+       text-anchor="middle"
+       id="text1203">TOOLS: BloodHound, Impacket, NetExec</text>
   </g>
-
   <!-- Connection 5 -> 6 (Leftwards to final green node) -->
-  <path d="M 330 285 L 285 285" fill="none" stroke="#39FF14" stroke-width="2" marker-end="url(#arrow-green)" filter="url(#glow-green)" />
-
+  <path
+     d="M 330 285 L 285 285"
+     fill="none"
+     stroke="#39FF14"
+     stroke-width="2"
+     marker-end="url(#arrow-green)"
+     filter="url(#glow-green)"
+     id="path1207" />
   <!-- NODE 6: OBJECTIVE & ANALYSIS -->
-  <g transform="translate(35, 230)">
-    <rect width="240" height="110" fill="#08140A" stroke="#39FF14" stroke-width="1.5" rx="4" />
-    <path d="M 0 0 L 25 0 L 0 25 Z" fill="#39FF14" />
-    <text x="5" y="14" fill="#05070C" font-family="monospace" font-size="9" font-weight="bold">06</text>
-    <text x="35" y="22" fill="#39FF14" font-family="'Consolas', monospace" font-size="12" font-weight="bold" filter="url(#glow-green)">OBJECTIVE &amp; REPORT</text>
-    <line x1="15" y1="32" x2="225" y2="32" stroke="#39FF14" stroke-opacity="0.3" stroke-width="1" />
-    <text x="15" y="50" fill="#A0AAB8" font-family="monospace" font-size="10">• Lab Objective Accomplished</text>
-    <text x="15" y="68" fill="#A0AAB8" font-family="monospace" font-size="10">• Root Cause Analysis</text>
-    <text x="15" y="86" fill="#A0AAB8" font-family="monospace" font-size="10">• Remediation &amp; Defense Notes</text>
-    <rect x="15" y="94" width="210" height="10" fill="#39FF14" fill-opacity="0.15" rx="2" />
-    <text x="120" y="102" fill="#39FF14" font-family="monospace" font-size="8" text-anchor="middle">RESULT: Mission Complete &amp; Documented</text>
+  <g
+     transform="translate(35, 230)"
+     id="g1229">
+    <rect
+       width="240"
+       height="110"
+       fill="#08140A"
+       stroke="#39FF14"
+       stroke-width="1.5"
+       rx="4"
+       id="rect1209" />
+    <path
+       d="M 0 0 L 25 0 L 0 25 Z"
+       fill="#39FF14"
+       id="path1211" />
+    <text
+       x="3"
+       y="10"
+       fill="#05070c"
+       font-family="monospace"
+       font-size="9px"
+       font-weight="bold"
+       id="text1213"
+       inkscape:transform-center-x="-5.3697279"
+       inkscape:transform-center-y="-4.7305234">06</text>
+    <text
+       x="35"
+       y="22"
+       fill="#39FF14"
+       font-family="'Consolas', monospace"
+       font-size="12"
+       font-weight="bold"
+       filter="url(#glow-green)"
+       id="text1215">OBJECTIVE &amp; REPORT</text>
+    <line
+       x1="15"
+       y1="32"
+       x2="225"
+       y2="32"
+       stroke="#39FF14"
+       stroke-opacity="0.3"
+       stroke-width="1"
+       id="line1217" />
+    <text
+       x="15"
+       y="50"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1219">• Lab Objective Accomplished</text>
+    <text
+       x="15"
+       y="68"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1221">• Root Cause Analysis</text>
+    <text
+       x="15"
+       y="86"
+       fill="#A0AAB8"
+       font-family="monospace"
+       font-size="10"
+       id="text1223">• Remediation &amp; Defense Notes</text>
+    <rect
+       x="15"
+       y="94"
+       width="210"
+       height="10"
+       fill="#39FF14"
+       fill-opacity="0.15"
+       rx="2"
+       id="rect1225" />
+    <text
+       x="120"
+       y="102"
+       fill="#39FF14"
+       font-family="monospace"
+       font-size="8"
+       text-anchor="middle"
+       id="text1227">RESULT: Mission Complete &amp; Documented</text>
   </g>
-
   <!-- Bottom Footer Line -->
-  <line x1="35" y1="355" x2="865" y2="355" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="1" />
-  <text x="450" y="367" fill="#5A6978" font-family="monospace" font-size="9" text-anchor="middle">METHODOLOGY PHILOSOPHY: LEARN ► BUILD ► BREAK ► ANALYZE ► DOCUMENT ► IMPROVE</text>
+  <line
+     x1="35"
+     y1="355"
+     x2="865"
+     y2="355"
+     stroke="#00F0FF"
+     stroke-opacity="0.2"
+     stroke-width="1"
+     id="line1231" />
+  <text
+     x="450"
+     y="367"
+     fill="#5A6978"
+     font-family="monospace"
+     font-size="9"
+     text-anchor="middle"
+     id="text1233">METHODOLOGY PHILOSOPHY: LEARN ► BUILD ► BREAK ► ANALYZE ► DOCUMENT ► IMPROVE</text>
 </svg>

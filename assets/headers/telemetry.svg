@@ -1,24 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="100%" height="100%">
-  <defs>
-    <linearGradient id="hdr-bg-cyan2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.2" />
-      <stop offset="30%" stop-color="#0A0E1A" />
-      <stop offset="100%" stop-color="#05060A" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 50"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg1775"
+   sodipodi:docname="telemetry.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1777"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.9066667"
+     inkscape:cx="450"
+     inkscape:cy="24.912587"
+     inkscape:window-width="1858"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1775" />
+  <defs
+     id="defs1757">
+    <linearGradient
+       id="hdr-bg-cyan2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#00F0FF"
+         stop-opacity="0.2"
+         id="stop1741" />
+      <stop
+         offset="30%"
+         stop-color="#0A0E1A"
+         id="stop1743" />
+      <stop
+         offset="100%"
+         stop-color="#05060A"
+         id="stop1745" />
     </linearGradient>
-    <filter id="glow-cyan2" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+    <filter
+       id="glow-cyan2"
+       x="-0.8"
+       y="-0.18461538"
+       width="2.6"
+       height="1.3692308">
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur1748" />
+      <feMerge
+         id="feMerge1754">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode1750" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode1752" />
       </feMerge>
     </filter>
   </defs>
-  <rect width="900" height="50" fill="url(#hdr-bg-cyan2)" rx="4" />
-  <rect width="900" height="50" fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.3" rx="4" />
-  <path d="M 0 0 L 12 0 L 0 12 Z" fill="#00F0FF" />
-  <rect x="18" y="12" width="6" height="26" fill="#00F0FF" filter="url(#glow-cyan2)" />
-  <text x="36" y="32" fill="#FFFFFF" font-family="'Consolas', 'Courier New', monospace" font-size="18" font-weight="900" letter-spacing="2">07 // SYSTEM TELEMETRY &amp; METRICS</text>
-  <path d="M 460 32 L 860 32" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="8 4" />
-  <polygon points="860,28 868,32 860,36" fill="#00F0FF" opacity="0.8" />
-  <text x="885" y="31" fill="#00F0FF" font-family="monospace" font-size="10" text-anchor="end" font-weight="bold">[METRICS-LIVE]</text>
+  <rect
+     width="900"
+     height="50"
+     fill="url(#hdr-bg-cyan2)"
+     rx="4"
+     id="rect1759" />
+  <rect
+     width="900"
+     height="50"
+     fill="none"
+     stroke="#00F0FF"
+     stroke-width="1"
+     stroke-opacity="0.3"
+     rx="4"
+     id="rect1761" />
+  <path
+     d="M 0 0 L 12 0 L 0 12 Z"
+     fill="#00F0FF"
+     id="path1763" />
+  <rect
+     x="18"
+     y="12"
+     width="6"
+     height="26"
+     fill="#00F0FF"
+     filter="url(#glow-cyan2)"
+     id="rect1765" />
+  <text
+     x="36"
+     y="32"
+     fill="#FFFFFF"
+     font-family="'Consolas', 'Courier New', monospace"
+     font-size="18"
+     font-weight="900"
+     letter-spacing="2"
+     id="text1767">07 // SYSTEM TELEMETRY &amp; METRICS</text>
+  <path
+     d="M 451.92215,26.050194 H 789.7718"
+     stroke="#00f0ff"
+     stroke-width="0.919034"
+     stroke-opacity="0.4"
+     stroke-dasharray="8, 4"
+     id="path1769" />
+  <polygon
+     points="860,36 860,28 868,32 "
+     fill="#00f0ff"
+     opacity="0.8"
+     id="polygon1771"
+     transform="translate(-65.110768,-5.9904939)" />
+  <text
+     x="891.22406"
+     y="28.369427"
+     fill="#00f0ff"
+     font-family="monospace"
+     font-size="10px"
+     text-anchor="end"
+     font-weight="bold"
+     id="text1773">[METRICS-LIVE]</text>
 </svg>
