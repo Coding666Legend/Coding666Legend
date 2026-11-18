@@ -376,13 +376,4 @@ Thanks for accessing the AKOS operator node.
 
 <br/>
 
-<!-- VISIT COUNTER -->
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Coding666Legend&icon=2&color=0" alt="Telemetry Visitor Counter" />
-</p>
-
-<a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=Coding666Legend&label=Profile%20Views&pretty=true" />
-</a>
-
 </div>
