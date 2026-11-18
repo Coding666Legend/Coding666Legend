@@ -381,6 +381,8 @@ Thanks for accessing the AKOS operator node.
   <img src="https://visitcount.itsvg.in/api?id=Coding666Legend&icon=2&color=0" alt="Telemetry Visitor Counter" />
 </p>
 
-[![](https://visitcount.itsvg.in/api?id=Coding666Legend&label=Profile%20Views&pretty=true)](https://visitcount.itsvg.in)
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=Coding666Legend&label=Profile%20Views&pretty=true" />
+</a>
 
 </div>
